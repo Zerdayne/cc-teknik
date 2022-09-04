@@ -8,4 +8,4 @@ function init(monitor)
     helper.resetColors(monitor)
 end
 
-return { init }
+return { init = init }

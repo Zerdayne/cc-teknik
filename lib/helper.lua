@@ -8,4 +8,4 @@ function init(monitor)
     resetColors(monitor)
 end
 
-return { init, resetColors }
+return { init = init, resetColors = resetColors }

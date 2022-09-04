@@ -2,4 +2,4 @@ function init(monitor, cell)
 
 end
 
-return { init }
+return { init = init }
