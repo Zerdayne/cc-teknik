@@ -6,8 +6,7 @@ local inv = peripheral.wrap("toms_storage:ts.inventory_connector.tile_0")
 while true do
     monitor.clear()
 
-    storage.init()
+    storage.init(monitor, inv)
 
-    sleep(30)
-
+    sleep(5)
 end

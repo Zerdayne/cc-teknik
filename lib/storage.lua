@@ -11,3 +11,5 @@ function init(monitor, inv)
     monitor.setCursorPos(1, 2)
     monitor.write(count .. "/" .. inv.size())
 end
+
+return { init = init }
