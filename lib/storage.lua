@@ -12,4 +12,4 @@ function init(monitor, inv)
     monitor.write(count .. "/" .. inv.size())
 end
 
-return { init = init }
+return { init }
