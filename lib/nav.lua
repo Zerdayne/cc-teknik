@@ -1,12 +1,13 @@
+local helper = require("helper")
+
 function init(monitor)
     monitor.setBackgroundColor(colors.red)
     monitor.setTextColor(colors.white)
 
     monitor.setCursorPos(2, 2)
+    monitor.write("Dashboard")
 
-
-    monitor.setBackgroundColor(colors.black)
-    monitor.setTextColor(colors.white)
+    helper.resetColors(monitor)
 end
 
 return { init }
