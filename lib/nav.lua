@@ -1,3 +1,5 @@
+local helper = require("helper")
+
 function init(monitor)
     monitor.setBackgroundColor(colors.red)
     monitor.setTextColor(colors.white)
