@@ -9,7 +9,7 @@ local cell = peripheral.wrap("powah:energy_cell_1")
 local reactor = peripheral.wrap("BiggerReactors_Reactor_4")
 
 while true do
-    helper.init()
+    helper.init(monitor)
 
     nav.init(monitor)
     storage.init(monitor, inv)
