@@ -1,4 +1,4 @@
-local helper = require("helper")
+local helper = require("lib.helper")
 
 function init(monitor)
     monitor.setBackgroundColor(colors.red)
