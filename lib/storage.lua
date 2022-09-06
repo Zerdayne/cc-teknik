@@ -5,10 +5,10 @@ function init(monitor, inv)
         count = count + 1
     end
 
-    monitor.setCursorPos(1, 1)
+    monitor.setCursorPos(14, 2)
     monitor.write("Storage")
 
-    monitor.setCursorPos(1, 2)
+    monitor.setCursorPos(14, 3)
     monitor.write(count .. "/" .. inv.size())
 end
 
