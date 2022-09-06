@@ -4,8 +4,8 @@ function resetColors(monitor)
 end
 
 function init(monitor)
-    monitor.clear()
     resetColors(monitor)
+    monitor.clear()
 end
 
 return { init = init, resetColors = resetColors }
